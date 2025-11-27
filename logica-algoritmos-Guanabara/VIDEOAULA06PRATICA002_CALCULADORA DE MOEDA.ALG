@@ -1,4 +1,4 @@
-algoritmo "VideoAula06Pratica002"
+algoritmo "VideoAula06Pratica002_Calculadora de moeda"
 var
    reais,dol:real
 inicio
