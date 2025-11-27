@@ -3,7 +3,7 @@ var
    n1, n2, M: real
 inicio
    Escreval("--------------------------------------------------------------- ")
-   Escreval("Escola Estadual do Dirceu, passando ou nao passando tu se fodeu ")
+   Escreval("Escola Estadual Dirceu, aqui tu se fodeu! ")
    Escreval("--------------------------------------------------------------- ")
    Escreval("Primeira nota: ")
    Leia(n1)

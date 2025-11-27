@@ -9,7 +9,7 @@ inicio
    IMC <- M / (A ^ 2)
    Escreval("Seu IMC: ",IMC:4:1)
    Se (IMC >= 18.5) e (IMC <= 25) entao
-      Escreva("Parabens! voce está no peso ideal. ")
+      Escreva("Parabens! voce esta no peso ideal. ")
    senao
       Escreva("Voce nao esta na faixa de peso ideal.")
    fimse

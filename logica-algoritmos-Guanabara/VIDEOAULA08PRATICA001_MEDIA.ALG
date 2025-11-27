@@ -7,12 +7,12 @@ inicio
    Escreva( "segunda nota: ")
    leia (n2)
    M <- (n1 + n2)/2
-   Escreval("A média da suas notas é:",m:4:2)
+   Escreval("A mï¿½dia da suas notas ï¿½:",m:4:2)
    Se (M >= 7) entao
       escreval("Aluno aprovado!")
    senao
       se (M >= 5) e (M < 7) entao
-         escreval("Aluno em recuperaçao")
+         escreval("Aluno em recuperaï¿½ao")
       senao
          escreval("Aluno reprovado.")
       fimse

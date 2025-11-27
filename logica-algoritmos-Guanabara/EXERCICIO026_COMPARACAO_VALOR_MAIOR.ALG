@@ -1,10 +1,10 @@
 algoritmo "Exercicio026"
-//PASSO 03 - CONDIÇÕES COMPOSTAS
-//26) Escreva um algoritmo que leia dois números inteiros e compare-os, mostrando
+//PASSO 03 - CONDIï¿½ï¿½ES COMPOSTAS
+//26) Escreva um algoritmo que leia dois nï¿½meros inteiros e compare-os, mostrando
 //na tela uma das mensagens abaixo:
-//- O primeiro valor é o maior
-//- O segundo valor é o maior
-//- Não existe valor maior, os dois são iguais
+//- O primeiro valor ï¿½ o maior
+//- O segundo valor ï¿½ o maior
+//- Nï¿½o existe valor maior, os dois sï¿½o iguais
 
 var
    v1,v2,R: Inteiro
@@ -14,12 +14,12 @@ inicio
    Escreva("Segundo Valor: ")
    Leia(v2)
    Se (v1 > v2) entao
-      Escreva("O primeiro valor é o maior ")
+      Escreva("O primeiro valor e o maior ")
       senao
          se (v1 = v2) entao
             Escreva("Nao existe valor maior, os dois sao iguais ")
          senao
-            Escreva("O segundo valor é o maior ")
+            Escreva("O segundo valor e o maior ")
          FimSe
    FimSe
 fimalgoritmo

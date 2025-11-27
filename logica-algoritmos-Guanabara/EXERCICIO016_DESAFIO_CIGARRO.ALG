@@ -4,16 +4,16 @@ var
 
 inicio
       escreval("Calculo da morte")
-      escreva("Faz quantos anos que você fuma? ")
+      escreva("Faz quantos anos que voce fuma? ")
       leia(anos_fumando)
-      escreva("Quantos cigarros você fuma por dia? ")
+      escreva("Quantos cigarros voce fuma por dia? ")
       leia(cigarros_por_dia)
 
       total_cigarros <- (anos_fumando * 365) * cigarros_por_dia
       minutos_perdidos <- total_cigarros * 10
       dias_vida_perdidos <- minutos_perdidos / 1440
 
-      escreval("Você já fumou um total de ", total_cigarros, " cigarros.")
-      escreval("Estimativa: Você perdeu cerca de ", dias_vida_perdidos, " dias de vida.")
+      escreval("Voce ja fumou um total de ", total_cigarros, " cigarros.")
+      escreval("Estimativa: Voce perdeu cerca de ", dias_vida_perdidos, " dias de vida.")
 
 fimalgoritmo

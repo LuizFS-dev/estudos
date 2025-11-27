@@ -11,7 +11,7 @@ inicio
       total_impostos <- imposto_importacao + valor_icms
       preco_final <- preco + total_impostos
       
-      Escreval("Imposto Importação 60%: R$ ", imposto_importacao:5:2)
+      Escreval("Imposto Importacao 60%: R$ ", imposto_importacao:5:2)
       Escreval("ICMS 20%(base) : R$ ", valor_icms:5:2)
       Escreval("Total de Impostos: R$ ", total_impostos:5:2)
       Escreval("Custo Total: R$ ", preco_final:5:2)

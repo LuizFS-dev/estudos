@@ -13,6 +13,6 @@ inicio
       leia(C)
 
       Delta <- (B ^ 2) - 4 * A * C
-      escreval("O valor de Delta é: ", Delta)
+      escreval("O valor de Delta e: ", Delta)
 
 fimalgoritmo

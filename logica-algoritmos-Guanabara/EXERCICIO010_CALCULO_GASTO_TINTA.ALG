@@ -8,6 +8,6 @@ inicio
       leia(lar)
       A <- alt*lar
       P <- A/2
-      escreval("A área total é de ",A," m²")
-      escreva("Voce precisará de: ",P," litros de tinta.")
+      escreval("A area total e de ",A," mï¿½")
+      escreva("Voce precisara de: ",P," litros de tinta.")
 fimalgoritmo

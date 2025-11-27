@@ -17,7 +17,7 @@ inicio
          Status <- "GOLEADA"
    FimEscolha
    Escreval("------------------------")
-   Escreval("Diferença:",Diferenca," gol(s).")
+   Escreval("Diferenca:",Diferenca," gol(s).")
    Escreval("Status da partida: ", Status)
    Escreval("------------------------")
    

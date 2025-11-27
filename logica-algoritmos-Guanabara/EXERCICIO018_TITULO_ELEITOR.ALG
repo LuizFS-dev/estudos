@@ -6,7 +6,7 @@ inicio
       leia(idade)
       voto <- 2025 - idade
       se (voto >= 18) entao
-         Escreva("Voce tem",voto," anos, já pode votar ")
+         Escreva("Voce tem",voto," anos, ja pode votar ")
       senao
            Escreva("Voce tem",voto," anos, ainda nao pode votar ")
       fimse

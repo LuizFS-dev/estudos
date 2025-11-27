@@ -1,8 +1,8 @@
 algoritmo "Exercicio030Desafio"
-//30) [DESAFIO] Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo
-//de triângulo será formado:
-//- EQUILÁTERO: todos os lados iguais
-//- ISÓSCELES: dois lados iguais
+//30) [DESAFIO] Refaï¿½a o algoritmo 25, acrescentando o recurso de mostrar que tipo
+//de triï¿½ngulo serï¿½ formado:
+//- EQUILï¿½TERO: todos os lados iguais
+//- ISï¿½SCELES: dois lados iguais
 //- ESCALENO: todos os lados diferentes
 var
 L1, L2, L3: Real

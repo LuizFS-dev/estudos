@@ -8,5 +8,5 @@ inicio
       horas <- dias * 8
       salario <- dias * 8 * 25
       
-      Escreva("Voce trabalhou por",horas," horas e receberá esse mes, o valor de R$",salario)
+      Escreva("Voce trabalhou por",horas," horas e recebera esse mes, o valor de R$",salario)
 fimalgoritmo

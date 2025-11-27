@@ -6,9 +6,9 @@ inicio
       leia(velocidade)
       multa <- (velocidade - 80)*5
       se (velocidade <= 80) entao
-         Escreva("Voce está no limite de velocidade")
+         Escreva("Voce esta no limite de velocidade")
       senao
-           Escreva("Voce atingiu o limite de velocidade e será multado em R$",multa)
+           Escreva("Voce atingiu o limite de velocidade e sera multado em R$",multa)
       fimse
 
 
