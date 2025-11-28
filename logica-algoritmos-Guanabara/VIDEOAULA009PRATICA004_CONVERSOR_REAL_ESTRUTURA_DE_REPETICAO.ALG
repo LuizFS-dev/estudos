@@ -18,7 +18,7 @@ inicio
       Leia(quantity)
 
       Enquanto ( conversions <= quantity) faca
-         Escreval("Convers�o ", conversions, " de ", quantity, ": Quantos reais voce tem? ")
+         Escreval("Conversao ", conversions, " de ", quantity, ": Quantos reais voce tem? ")
          Leia(reais)
 
          dol <- reais/5.4
@@ -31,7 +31,7 @@ inicio
          Escreval("Voce converteu ",quantity," vezes. Deseja continuar? [S/N] ")
          leia(response)
          Se (response <> "S") e (response <> "s") e (response <> "N") e (response <> "n") entao
-            Escreval("ERRO: Op��o inv�lida! Digite apenas S ou N.")
+            Escreval("ERRO: Opcao invalida! Digite apenas S ou N.")
          FimSe
       Ate (response = "S") ou (response = "s") ou (response = "N") ou (response = "n")
 

@@ -1,1 +1,5 @@
-Dia 1: Configuração do Ambiente.
+Dia 01: Configuração do Ambiente.
+
+Dia 04: Tentei substituir o Visualg pelo VSCode com a extensao Design Líquido, porem o encoding gerou um problema de codificacao de textos com acentuacao e varios caracteres foram substituidos por: " ". Meu erro foi salvar e enviar. Achava que era apenas um glitch visual em conflito pela diferenca de ferramentas.
+
+Dia 05: Video aula 09 desafio 01, minha primeira solução usava dois loops separados (um para subir, um para descer). Percebi que isso violava o princípio DRY. Reformulei o código para usar um único loop com incremento variável (1 ou -1), reduzindo a linha de código.

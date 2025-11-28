@@ -1,6 +1,6 @@
-algoritmo "Ol�, Mundo!"
+algoritmo "Ola, Mundo!"
 var
 
 inicio
-   escreva("Ol�, Mundo!")
+   escreva("Ola, Mundo!")
 fimalgoritmo

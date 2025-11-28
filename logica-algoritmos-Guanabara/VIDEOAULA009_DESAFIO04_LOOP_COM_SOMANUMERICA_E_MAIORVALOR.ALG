@@ -5,7 +5,7 @@ inicio
    counter <- 1
    total_amount <- 0
    Enquanto (counter <= 10) Faca
-      Escreval("Digite o ", counter,"�. Valor: ")
+      Escreval("Digite o ", counter,"º. Valor: ")
       Leia(value)
       Se (value > highest_value) entao
          highest_value <- value
