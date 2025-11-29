@@ -6,7 +6,8 @@
 algoritmo "Exercicio033"
 
 var
-    property_value, user_salary, years_to_pay, monthly_payment : real
+    property_value, user_salary, monthly_payment : real
+    months, years_to_pay : inteiro
     new_simulation : caractere
 
 inicio
@@ -23,7 +24,8 @@ inicio
         escreva("Em quantos anos pretende finaciar? ")
         leia(years_to_pay)
 
-        monthly_payment <- (property_value / (years_to_pay * 12) )
+        months <- (years_to_pay * 12)
+        monthly_payment <- (property_value / months )
 
         limpatela
         escreval("=========================== ")
@@ -37,7 +39,7 @@ inicio
         senao
             escreval("      A P R O V A D O       ")
             escreval("=========================== ")
-            escreval("Parcelas: 12x de R$",monthly_payment:5:2)
+            escreval("Parcelas:",months," x de R$",monthly_payment:5:2)
         fimse
 
         repita
