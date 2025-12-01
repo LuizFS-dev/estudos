@@ -1,5 +1,19 @@
-Dia 01: Configuração do Ambiente.
+Dia 01
+Configuração do Ambiente.
+Instalei o Visualg e fiz os primeiros testes. Basicamente aprendendo a sintaxe de "escreva" e "leia".
 
-Dia 04: Tentei substituir o Visualg pelo VSCode com a extensao Design Líquido, porem o encoding gerou um problema de codificacao de textos com acentuacao e varios caracteres foram substituidos por: " ". Meu erro foi salvar e enviar. Achava que era apenas um glitch visual em conflito pela diferenca de ferramentas.
+Dia 02
+Comecei as condicionais (Se/Senao). Confesso que apanhei um pouco pra misturar conta de matemática com lógica de programação no exercício da Multa, mas consegui. Aprendi o operador % (módulo) pra ver se o ano é bissexto.
 
-Dia 05: Video aula 09 desafio 01, minha primeira solução usava dois loops separados (um para subir, um para descer). Percebi que isso violava o princípio DRY. Reformulei o código para usar um único loop com incremento variável (1 ou -1), reduzindo a linha de código.
+Dia 03
+Fui pro JoKenPo. Aqui o negócio ficou mais sério. Tive que usar a função de aleatório (RandI) pro computador jogar contra mim. A maior lição foi entender que não dá pra misturar número com texto na lógica, tive que separar as coisas pra funcionar direito.
+
+Dia 04 Caos
+Tentei passar pro VS Code usando uma extensão pra ficar mais bonito, mas deu muito ruim. O VS Code salvou os arquivos num formato diferente e todos os acentos viraram "?". Achei que tinha perdido tudo.
+Sorte que eu já estava usando Git. Consegui voltar a versão antiga (checkout) e arrumei a configuração do VS Code pra ler arquivos antigos. aprendi na marra pra que serve o Git.
+
+Dia 05
+Foquei em repetição (Enquanto).
+Refiz o exercício da "Contagem Inteligente". Antes eu tinha feito dois códigos separados. Percebi que dava pra fazer num só usando matemática (+1 ou -1). O código ficou bem menor.
+Também voltei no exercício do Empréstimo Bancário pra arrumar umas coisas que estavam me incomodando: tirei uns textos fixos que mentiam sobre o número de parcelas e passei as variáveis pra inglês pra ir acostumando.
+
