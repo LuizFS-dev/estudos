@@ -7,36 +7,53 @@
 // - A cada ponto ganho, o cliente fatura R$0,05 (5 centavos)
 
 algoritmo "Exercicio036"
-
 var
-    userR: caractere
-    hours, points: inteiro
-    money: real
-inicio
-    repita
-        limpatela
-        escreva("Digite a quantidade de horas de atividade física no mês:")
-        leia(hours)
-        se hours <= 10 entao
-            points <- hours * 2
-        senao
-            se hours <= 20 entao
-                points <- (10 * 2) + ((hours - 10) * 5)
-            senao
-                points <- (10 * 2) + (10 * 5) + ((hours - 20) * 10)
-            fimse
-        fimse
-        money <- points * 0.05
-        escreval("Total de pontos ganhos: ", points)
-        escreval("Total em dinheiro: R$ ", money:0:2)
+   userR: caractere
+   hours, points: inteiro
+   cash_earned: real 
 
-        repita
-            escreval("Nova tarefa? (S/N)")
-            leia(userR)
-            userR <- maiusc(userR)
-            se (userR <> "S") e (userR <> "N") entao
-                escreval("Resposta invalida. Digite [S/N].")
-            fimse
-        ate (userR = "S") ou (userR = "N")
-    ate (userR = "N")
+inicio
+   repita
+      limpatela
+      Repita
+         escreva("Horas de atividade no mês: ")
+         leia(hours)
+         Se (hours < 0) entao
+            Escreval("ERRO: Horas nao podem ser negativas.")
+         FimSe
+      Ate (hours >= 0)
+
+      se hours <= 10 entao
+         points <- hours * 2
+      senao
+         se hours <= 20 entao
+
+            points <- (10 * 2) + ((hours - 10) * 5)
+         senao
+            points <- (10 * 2) + (10 * 5) + ((hours - 20) * 10)
+         fimse
+      fimse
+
+      cash_earned <- points * 0.05
+
+      Escreval("----------------------------------")
+      escreval("RELATÓRIO DE DESEMPENHO:")
+      escreval("Horas Totais:        ", hours)
+      escreval("Pontos Acumulados:   ", points)
+      escreval("Bônus em Dinheiro:   R$ ", cash_earned:5:2)
+      Escreval("----------------------------------")
+
+      repita
+         escreva("Calcular novo cliente? [S/N]: ")
+         leia(userR)
+         userR <- maiusc(userR)
+         se (userR <> "S") e (userR <> "N") entao
+            escreval("Resposta invalida. Digite [S/N].")
+         fimse
+      ate (userR = "S") ou (userR = "N")
+      
+   ate (userR = "N")
+   
+   LimpaTela
+   Escreval("Sistema finalizado.")
 fimalgoritmo
